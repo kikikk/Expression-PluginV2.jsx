@@ -1,0 +1,3 @@
+L = thisComp.layer("父级图层名"); // 替换为你的父级图层名称
+s = L.transform.scale/100;
+[value[0]/s[0], value[1]/s[1]];

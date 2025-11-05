@@ -1,0 +1,4 @@
+startVal = 0;
+endVal = 1000;
+dur = 2; // 持续时间（秒）
+Math.round(linear(time, inPoint, inPoint + dur, startVal, endVal));

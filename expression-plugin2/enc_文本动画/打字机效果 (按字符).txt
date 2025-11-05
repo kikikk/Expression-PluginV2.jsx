@@ -1,0 +1,5 @@
+L = text.sourceText.length;
+It = time - thisLayer.inPoint;
+Ft = thisComp.frameDuration;
+CharPerSec = 15; // 每秒字符数
+Math.round(L * linear(It, 0, L/CharPerSec, 0, 1));

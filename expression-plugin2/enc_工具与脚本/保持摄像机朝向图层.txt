@@ -1,0 +1,2 @@
+target = thisComp.layer("目标图层名"); // 替换为你的目标图层名称
+lookAt(position, target.position);

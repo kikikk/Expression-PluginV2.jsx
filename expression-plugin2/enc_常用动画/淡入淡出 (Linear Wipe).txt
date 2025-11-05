@@ -1,0 +1,1 @@
+linear(time, inPoint, inPoint + 1, 0, 100) - linear(time, outPoint - 1, outPoint, 0, 100);
